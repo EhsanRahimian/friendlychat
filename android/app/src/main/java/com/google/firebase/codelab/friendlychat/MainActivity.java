@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity implements
         mFirebaseRemoteConfig.setConfigSettings(firebaseRemoteConfigSettings);
         mFirebaseRemoteConfig.setDefaults(defaultConfigMap);
 
-        // Fetch remote config.
+        // Fetch  remote config.
         fetchConfig();
 
         mMessageEditText = (EditText) findViewById(R.id.messageEditText);
